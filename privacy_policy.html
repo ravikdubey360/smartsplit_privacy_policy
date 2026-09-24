@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy — SmartSplit (DND Tech Solution)</title>
+  <style>
+    :root {
+      --bg: #090a0f;
+      --card-bg: #12141c;
+      --card-border: rgba(255, 255, 255, 0.08);
+      --text: #f0f2f7;
+      --text-muted: #9aa0b0;
+      --accent: #f59e0b;
+      --accent-glow: rgba(245, 158, 11, 0.15);
+      --badge-bg: rgba(245, 158, 11, 0.12);
+      --badge-text: #fbbf24;
+      --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+
+    @media (prefers-color-scheme: light) {
+      :root {
+        --bg: #f8fafc;
+        --card-bg: #ffffff;
+        --card-border: rgba(0, 0, 0, 0.08);
+        --text: #0f172a;
+        --text-muted: #64748b;
+        --accent: #d97706;
+        --accent-glow: rgba(217, 119, 6, 0.1);
+        --badge-bg: rgba(217, 119, 6, 0.1);
+        --badge-text: #b45309;
+      }
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--bg);
+      color: var(--text);
+      font-family: var(--font-family);
+      line-height: 1.65;
+      padding: 40px 20px 80px;
+    }
+
+    .container {
+      max-width: 840px;
+      margin: 0 auto;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 48px;
+    }
+
+    .logo-container {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 72px;
+      height: 72px;
+      background: linear-gradient(135deg, #1f2230 0%, #0d0e12 100%);
+      border-radius: 20px;
+      box-shadow: 0 10px 25px var(--accent-glow);
+      border: 1px solid var(--card-border);
+      margin-bottom: 20px;
+    }
+
+    .logo-container svg {
+      width: 44px;
+      height: 44px;
+    }
+
+    h1 {
+      font-size: 2.25rem;
+      font-weight: 700;
+      letter-spacing: -0.025em;
+      margin-bottom: 8px;
+    }
+
+    .sub-title {
+      font-size: 1rem;
+      color: var(--text-muted);
+      margin-bottom: 16px;
+    }
+
+    .badge {
+      display: inline-block;
+      background: var(--badge-bg);
+      color: var(--badge-text);
+      font-size: 0.8125rem;
+      font-weight: 600;
+      padding: 4px 12px;
+      border-radius: 9999px;
+      letter-spacing: 0.02em;
+    }
+
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 16px;
+      padding: 32px;
+      margin-bottom: 24px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
+    }
+
+    h2 {
+      font-size: 1.35rem;
+      font-weight: 600;
+      color: var(--text);
+      margin-bottom: 14px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    h2::before {
+      content: "";
+      display: inline-block;
+      width: 4px;
+      height: 18px;
+      background: var(--accent);
+      border-radius: 2px;
+    }
+
+    p {
+      color: var(--text-muted);
+      margin-bottom: 14px;
+      font-size: 0.975rem;
+    }
+
+    p:last-child {
+      margin-bottom: 0;
+    }
+
+    ul {
+      list-style-type: none;
+      margin: 14px 0;
+    }
+
+    li {
+      color: var(--text-muted);
+      font-size: 0.975rem;
+      padding: 8px 0;
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+    }
+
+    li::before {
+      content: "•";
+      color: var(--accent);
+      font-weight: bold;
+      font-size: 1.2rem;
+      line-height: 1;
+    }
+
+    strong {
+      color: var(--text);
+      font-weight: 600;
+    }
+
+    .highlight-box {
+      background: var(--accent-glow);
+      border-left: 3px solid var(--accent);
+      padding: 16px 20px;
+      border-radius: 0 12px 12px 0;
+      margin: 16px 0;
+    }
+
+    .highlight-box p {
+      color: var(--text);
+      font-size: 0.925rem;
+      font-weight: 500;
+      margin: 0;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 48px;
+      font-size: 0.875rem;
+      color: var(--text-muted);
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <div class="logo-container">
+        <!-- SmartSplit Vector Split Bolt Glyph -->
+        <svg viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <linearGradient id="goldGrad" x1="20%" y1="10%" x2="80%" y2="90%">
+              <stop offset="0%" stop-color="#FFF2A0" />
+              <stop offset="30%" stop-color="#FFCA28" />
+              <stop offset="70%" stop-color="#FF9800" />
+              <stop offset="100%" stop-color="#E65100" />
+            </linearGradient>
+          </defs>
+          <polygon points="314,76 122,281 198,281 163,380 290,191 276,194" fill="url(#goldGrad)" />
+          <polygon points="198,436 390,231 314,231 349,132 222,321 236,318" fill="url(#goldGrad)" />
+        </svg>
+      </div>
+      <h1>Privacy Policy</h1>
+      <p class="sub-title">SmartSplit by <strong>DND Tech Solution</strong></p>
+      <span class="badge">Effective Date: September 24, 2026</span>
+    </header>
+
+    <div class="card">
+      <h2>1. Overview & Privacy Commitment</h2>
+      <p>
+        <strong>DND Tech Solution</strong> (“we,” “us,” or “our”) developed <strong>SmartSplit</strong> (Application ID: <code>com.dndtechsolution.smartsplit</code>) as a privacy-first utility application designed to help users calculate, divide, generate, and share split UPI payment QR codes.
+      </p>
+      <p>
+        Your privacy is our utmost priority. SmartSplit operates strictly under an <strong>on-device architecture</strong>. We do not track, profile, collect, monetize, or sell your personal data.
+      </p>
+      <div class="highlight-box">
+        <p>Key Promise: SmartSplit does not run remote background telemetry, does not store financial records, and does not require account creation.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>2. Information Collection & Usage</h2>
+      <p>
+        SmartSplit does not transmit personal or sensitive user data to external servers. All operations occur locally in memory on your device:
+      </p>
+      <ul>
+        <li><strong>No Account Required:</strong> You do not need to register, log in, or provide personal details (such as name, phone number, or email address) to use SmartSplit.</li>
+        <li><strong>No Financial Account Storage:</strong> SmartSplit does not access or store your bank accounts, debit/credit cards, UPI PINs, passwords, or transaction histories.</li>
+        <li><strong>Local Split Calculations:</strong> Any payment amount entered by you is processed purely in client-side memory to calculate installment parts and generate QR codes.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>3. Device Permissions & Purpose</h2>
+      <p>
+        SmartSplit requests only minimal, explicitly required device permissions necessary to perform user-initiated actions:
+      </p>
+      <ul>
+        <li>
+          <strong>Camera Permission (<code>android.permission.CAMERA</code>):</strong>
+          Used solely when you choose to scan an existing UPI QR code. The camera frame stream is processed locally in real-time by an on-device QR scanner. No photographs, video streams, or biometric data are captured, recorded, or transmitted to any server.
+        </li>
+        <li>
+          <strong>Media Storage Access (<code>MediaStore Images</code>):</strong>
+          Used exclusively when you tap <em>"Save QR to Gallery"</em> or <em>"Save All QRs"</em>. This permission is utilized solely to write the generated QR code PNG file to your device's local Pictures directory (<code>Pictures/SmartSplit</code>) so you can access it in your preferred UPI application. SmartSplit does not read, scan, or access any other images or files on your device.
+        </li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>4. Third-Party Services & UPI Interactions</h2>
+      <p>
+        SmartSplit provides tools to facilitate standard Unified Payments Interface (UPI) flows established by the National Payments Corporation of India (NPCI):
+      </p>
+      <ul>
+        <li><strong>Standard UPI URI Specifications:</strong> Split QR codes generated by SmartSplit adhere strictly to standard UPI specifications (<code>upi://pay?...</code>).</li>
+        <li><strong>Authorized Payment Apps:</strong> When you choose to scan or share a split QR code, the actual monetary transaction is executed entirely through your authorized third-party UPI applications (e.g., Google Pay, PhonePe, Paytm, BHIM, or your bank's UPI app).</li>
+        <li><strong>No Intermediary Role:</strong> SmartSplit is not a payment gateway, payment aggregator, or financial intermediary. We do not hold, route, custody, or touch user funds. All financial settlements occur directly between payer and payee banks.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>5. Data Retention & Security</h2>
+      <p>
+        Because SmartSplit does not collect or transmit your personal information to external servers, we retain no user data on our end. Any split configurations, payment amounts, or receiver details entered into the app remain on your physical device and are cleared according to your device's operating system life cycle.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>6. Children’s Privacy</h2>
+      <p>
+        SmartSplit does not address or knowingly collect personally identifiable information from children under the age of 13. If you are a parent or guardian and become aware that your child has provided personal information, please contact us so we can take appropriate measures.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>7. Changes to This Privacy Policy</h2>
+      <p>
+        We may update this Privacy Policy from time to time to reflect improvements or regulatory modifications. Any changes will be posted on this page with an updated "Effective Date". We encourage you to review this policy periodically.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>8. Contact Information</h2>
+      <p>
+        If you have any questions, suggestions, or privacy inquiries regarding SmartSplit or this Privacy Policy, please contact:
+      </p>
+      <div class="highlight-box">
+        <p><strong>DND Tech Solution</strong><br>
+        Developer: SmartSplit Team<br>
+        Email: <a href="mailto:support@dndtechsolution.com">support@dndtechsolution.com</a><br>
+        Bangalore, Karnataka, India</p>
+      </div>
+    </div>
+
+    <footer>
+      <p>© 2026 DND Tech Solution. All rights reserved.</p>
+      <p style="margin-top: 6px;">SmartSplit • Package: <code>com.dndtechsolution.smartsplit</code></p>
+    </footer>
+  </div>
+
+</body>
+</html>
